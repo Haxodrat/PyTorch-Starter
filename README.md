@@ -8,3 +8,12 @@
 ```bash
 Download and open with Colab or Jupyter Notebook.
 ```
+#### 2. Install PyTorch, TorchVision, Matplotlib, and Tensorboard.
+```bash
+conda install pytorch torchvision -c pytorch
+conda install matplotlib tensorboard
+```
+#### 2. Running Tensorboard on the tensorboard.ipynb file.
+```bash
+tensorboard --logdir=runs
+```
